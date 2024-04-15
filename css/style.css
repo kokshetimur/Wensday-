@@ -194,8 +194,8 @@ button {
     margin-bottom: 20px;
 }
 
-.about__text--bold {
-    font-weight: 700;
+.about__text--medium {
+    font-weight: 500;
 }
 
 .about__item--title {
