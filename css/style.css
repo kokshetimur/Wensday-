@@ -488,6 +488,9 @@ margin-bottom: 220px;
         width: 100%;
         margin-bottom: 20px;
     }
+    .produsts__item:last-child{
+        display: none;
+    }
     .video__box {
         min-height: 430px;
     }
@@ -534,7 +537,10 @@ margin-bottom: 220px;
         margin: 0 auto;
     }
 
-
+    
+    .products__inner{
+        gap: 12px;
+    }
     .header__inner{
         flex-wrap: wrap;
         align-items: center;
