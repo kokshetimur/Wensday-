@@ -479,12 +479,14 @@ margin-bottom: 220px;
 
     .produsts__items {
         flex-wrap: wrap;
+        justify-content: center;
     }
     .produsts__item-img {
         width: 80%;
     }
     .produsts__item {
-        width: 45%;
+        width: 100%;
+        margin-bottom: 20px;
     }
     .video__box {
         min-height: 430px;
@@ -553,7 +555,6 @@ margin-bottom: 220px;
         width: 1500px;
     }
 
-    
     .top,
     .products,
     .video {
