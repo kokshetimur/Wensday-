@@ -445,6 +445,9 @@ margin-bottom: 220px;
   .container-arrow {
     display: none;
   }
+  .produsts__items {
+    position: static;
+  }
 }
 
 @media ( max-width: 850px ) {
@@ -482,15 +485,14 @@ margin-bottom: 220px;
         justify-content: center;
     }
     .produsts__item-img {
-        width: 100%;
+        width: 90%;
     }
     .produsts__item {
         width: 100%;
         margin-bottom: 20px;
     }
-    .produsts__item:last-child{
-        display: none;
-    }
+    
+    
     .video__box {
         min-height: 430px;
     }
